@@ -48,7 +48,7 @@ SITES = [
 
 11. Now create a pull request: base: master compare: add-5-names. Merge and close this pull request.
 
-If you experience any errors or git conflicts in this exercise, please list the details, error messages and show me how you troubleshoot and resolve the conflict. The goal is to have this file content on master branch:
+When you experience any errors or git conflicts in this exercise, please list the details, error messages and show me how you troubleshoot and resolve the conflict. The goal is to resolve conflicted files to have this file content on master branch:
 SITES = [
     "https://test1.com",
     "https://test2.com",
