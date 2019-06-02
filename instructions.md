@@ -2,8 +2,7 @@ Git Test Instruction:
 
 1. Make test_git.py file in your code editor and enter its content:
 SITES = [
-    "https://test1.com"
-    ""https://test1.com""
+    "https://test1.com",
     "https://test3.com",
     "https://test4.com",
     "https://test5.com",
@@ -57,4 +56,4 @@ If you experience any errors or git conflicts in this exercise, please list the 
 15. Delete add-5-names branch ONLY after conflict is resolved and merge is complete.
 
 Deliverable: link to your public GitHub repo
-Example: https://github.com/nnh242/test-git 
+Example: https://github.com/nnh242/git-test
