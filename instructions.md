@@ -14,12 +14,9 @@ SITES = [
 4. Follow the instructions to create a new repository on the command line to push your new test_git.py file to the new GitHub repo
 5. You notice that test2.com is missing, so you want to include that in the Sites. Insert the line "https://test2.com" after test 1 and above test 3. 
 6. Commit changes with a meaningful message describing what you have added and push this changes to remote repo.
-7. Go to your local project, checkout a new branch called "add-5-names"
+7. Go to your local project, checkout a new branch and call it "add-5-names"
 8. Open the test-git.py file and insert your name 5 more times in the file. Save and commit these changes. Push your local changes to the remote add-5-names branch.
-9. On Github, create a pull request to Merge the branch add-5-names into master branch
-10. On your local files, on add-5-names branch open test_git.py and delete all of your names and "https://test2.com"
-11. Commit your changes and push to remote branch add-5-names
-12. Go to your GitHub repo's master branch and open the test_git.py to edit it, delete everything and replace with: 
+9. Go to your GitHub repo's master branch and open the test_git.py to edit it, delete everything and replace with: 
 
 SITES = [
     "https://test1.com"
@@ -47,13 +44,28 @@ SITES = [
     "https://test10.com"
 ]
 
-13. Commit your changes to master.
+10. Commit your changes to master.
 
-14. Now create a pull request: base: master compare: add-5-names. Merge and close this pull request.
+11. Now create a pull request: base: master compare: add-5-names. Merge and close this pull request.
 
-If you experience any errors or git conflicts in this exercise, please list the details, error messages and show me how you troubleshoot and resolve the conflict.
+When you experience any errors or git conflicts in this exercise, please list the details, error messages and show me how you troubleshoot and resolve the conflict. The goal is to resolve conflicted files to have this file content on master branch:
+SITES = [
+    "https://test1.com",
+    "https://test2.com",
+    "https://test3.com",
+    "https://test4.com",
+    "https://test5.com",
+    "https://test6.com",
+    "https://test7.com", 
+    "Your Name",
+    "Your Name",
+    "Your Name",
+    "Your Name",
+    "Your Name",
+    "Your Name",
+    ]
 
-15. Delete add-5-names branch ONLY after conflict is resolved and merge is complete.
+12. Delete add-5-names branch ONLY after conflict is resolved and merge is complete.
 
 Deliverable: link to your public GitHub repo
 Example: https://github.com/nnh242/git-test
