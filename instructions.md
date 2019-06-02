@@ -13,8 +13,8 @@ SITES = [
 2. Enter your name as one of the elements in the Sites dictionary in the correct Python syntax for an element in a list.
 3. Create a GitHub account and create a new Repo on github to host this test code. We will be using github in this test because it is free and similar to git lab. Commands that you are being tested on for github and gitlab are the same.
 4. Follow the instructions to create a new repository on the command line to push your new test_git.py file to the new GitHub repo
-5. You notice that test2.com is missing, so you want to include that in the Sites. On your GitHub repo master branch, insert the line "https://test2.com" after test 1 and above test 3. 
-6. Commit changes on master branch on GitHub repo with a meaningful message describing what you have added.
+5. You notice that test2.com is missing, so you want to include that in the Sites. Insert the line "https://test2.com" after test 1 and above test 3. 
+6. Commit changes with a meaningful message describing what you have added and push this changes to remote repo.
 7. Go to your local project, checkout a new branch called "add-5-names"
 8. Open the test-git.py file and insert your name 5 more times in the file. Save and commit these changes. Push your local changes to the remote add-5-names branch.
 9. On Github, create a pull request to Merge the branch add-5-names into master branch
